@@ -86,8 +86,8 @@ video {
 .card {
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(5px);
-    max-width: 600px; 
-    width: 100%;      
+    max-width: 300px; /* 🔥 Burayı büyüt! mesela 600px yap */
+    width: 100%;      /* Ekranın ortasına otursun */
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -99,6 +99,7 @@ video {
     transform: translateX(-50%);
     transition: top 1s ease-in-out;
 }
+
 
 .card.show {
     top: 50%;
@@ -218,6 +219,7 @@ video {
     text-align: justify;
     padding: 0 2rem 2.5rem;
     order: 100;
+    margin-left: 25%
 }
 
 
